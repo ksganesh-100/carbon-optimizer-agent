@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carbon Optimizer Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Carbon Optimizer Agent</h1>
+
+  <form id="shipmentForm">
+    <label>From: <input type="text" id="origin" required /></label><br/>
+    <label>To: <input type="text" id="destination" required /></label><br/>
+    <label>Weight (kg): <input type="number" id="weight" required /></label><br/>
+    
+    <label>Priority:</label>
+    <select id="priority">
+      <option value="co2">Lowest CO₂</option>
+      <option value="cost">Lowest Cost</option>
+      <option value="time">Fastest Delivery</option>
+      <option value="balanced" selected>Balanced</option>
+    </select><br/>
+
+    <button type="submit">Optimize Route</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
