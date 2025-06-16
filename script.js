@@ -40,7 +40,7 @@ document.getElementById("shipmentForm").addEventListener("submit", function (e) 
     <p><strong>Mode Selected:</strong> ${best.mode}</p>
     <p><strong>Confidence:</strong> ${confidence}%</p>
     <p><strong>Reasoning:</strong> Based on your priority, ${best.mode} has the best trade-off between CO₂, cost, and time.</p>
-    <p>📤 Action Taken: Plan sent to <strong>DMS</strong> for execution.</p>
+    <p>📤 Action Taken: Plan sent to <strong>Blue Yonder TMS</strong> for execution.</p>
 
     <h3>📊 Comparison Table</h3>
     <table border="1">
